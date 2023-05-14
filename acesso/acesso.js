@@ -29,7 +29,7 @@ if(usuario.length <1 || senha.length <1){
     return false;
 }
 
-if(usuario == "usuario" && senha == "senha"){
+if(usuario == "admin" && senha == "admin"){
 
     sucesso.style.display = ('inline')
 
