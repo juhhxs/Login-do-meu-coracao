@@ -29,12 +29,7 @@ if(usuario.length <1 || senha.length <1){
     return false;
 }
 
-if(usuario == "Bruna Mirella" && senha == "040921" 
-|| usuario == "bruna mirella" && senha == "040921"
-|| usuario == "Bruna" && senha == "040921"
-|| usuario == "bruna" && senha == "040921"
-|| usuario == "Bruna Mirella Paladino da Silva" && senha == "040921"
-|| usuario == "bruna mirella paladino da silva" && senha == "040921"){
+if(usuario == "usuario" && senha == "senha"){
 
     sucesso.style.display = ('inline')
 
